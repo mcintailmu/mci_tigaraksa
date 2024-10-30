@@ -105,7 +105,7 @@
             <div class="col-md-4">
                 <div class="feature-card p-4 border rounded animate__animated animate__fadeInUp">
                     <i class="bi bi-mortarboard display-4"></i>
-                    <p>Ruangan Belajar Nyaman dan Ber Ac.</p>
+                    <p>Ruangan Belajar Nyaman dan Ber AC.</p>
                 </div>
             </div>
             <div class="col-md-4">
