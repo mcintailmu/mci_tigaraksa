@@ -113,7 +113,7 @@
             <h2 class="mb-5">Tentang Kami</h2>
             <p>Kami adalah institusi pendidikan yang berdedikasi untuk mencetak siswa berkualitas, berakhlak, dan siap
                 menghadapi tantangan masa depan yang dalam Kurikulum mengedepankan
-                Pendidikan Dinniyyah Dan Tahfizhul Qur'an.
+                Pendidikan Diniyah Dan Tahfizhul Qur'an.
                 .</p>
             <div class="row mt-4">
                 <div class="col-md-4">
