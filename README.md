@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 
@@ -64,20 +63,13 @@
         .footer a:hover {
             color: white;
         }
-        .images {
-            display: flex;            
-        }
-        .image {
-            width: 4px;
-            margin: auto;
-            border-radius: 1px;
-        }
+
         
 
         /* Responsive Adjustments */
         @media (max-width: 768px) {
             #home {
-                height: 70vh;
+                height: 100vh;
             }
         }
     </style>
