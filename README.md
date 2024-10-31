@@ -103,7 +103,7 @@
         <div class="container ">
             <h1 class="animate__animated animate__fadeInDown text-secondary me-3">Ahlan Wa Sahlan</h1>
             <a href="#about" class="btn btn-primary btn-lg animate__animated animate__zoomIn">Pelajari Lebih Lanjut</a>
-            <p class="animate__animated animate__fadeInUp">Mendidik Generasi untuk Masa Depan Gemilang</p>
+            <p class="animate__animated animate__fadeInUp"></p>
         </div>
     </section>
 
@@ -112,7 +112,7 @@
         <div class="container text-center">
             <h2 class="mb-5">Tentang Kami</h2>
             <p>Kami adalah institusi pendidikan yang berdedikasi untuk mencetak siswa berkualitas, berakhlak, dan siap
-                menghadapi tantangan masa depan yang dalam Kurikulum mengedepankan
+                menghadapi tantangan masa depan melalui Kurikulum yang mengedepankan
                 Pendidikan Diniyah Dan Tahfizhul Qur'an.
                 .</p>
             <div class="row mt-4">
