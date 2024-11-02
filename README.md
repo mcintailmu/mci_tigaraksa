@@ -80,7 +80,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">MCI TIGARAKSA</a>
+    
+            <a class="navbar-brand" style ="margin-top: 5%, margin-bottom:5%" href="#">MCI TIGARAKSA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
