@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kegiatan Sekolah</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img,
+        .gallery-item video {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .gallery-item h3 {
+            padding: 10px;
+            font-size: 1.2em;
+            background-color: #3498db;
+            color: #fff;
+        }
+        .gallery-item p {
+            padding: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeri Kegiatan Sekolah</h1>
+    <div class="gallery">
+        <!-- Item Foto -->
+        <div class="gallery-item">
+            <img src="foto-kegiatan1.jpg" alt="Kegiatan 1">
+            <h3></h3>
+            <p>Deskripsi singkat kegiatan 1.</p>
+        </div>
+        
+        <!-- Item Foto -->
+        <div class="gallery-item">
+            <img src="foto-kegiatan2.jpg" alt="Kegiatan 2">
+            <h3>Judul Kegiatan 2</h3>
+            <p>Deskripsi singkat kegiatan 2.</p>
+        </div>
+
+        <!-- Item Video -->
+        <div class="gallery-item">
+            <video controls>
+                <source src="image/vid1.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+            <h3>TOUR</h3>
+            <p>Taman Mini Indonesia Indah.</p>
+            <div class="gallery-item">
+            <video controls>
+                <source src="image/tour.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+            <h3>TOUR</h3>
+            <p>Taman Mini Indonesia Indah.</p>
+        </div>
+        
+         <div class="gallery-item">
+            <video controls>
+                <source src="image/murajaah.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+            <h3>Muraja'ah.</h3>
+            <p>MSUTQ.</p>
+        </div>
+        
+        <!-- Tambahkan item lebih banyak sesuai kebutuhan -->
+    </div>
+    </div>
+</body>
+</html>
