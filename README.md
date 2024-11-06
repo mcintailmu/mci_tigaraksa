@@ -102,7 +102,7 @@
     <section class="hero d-flex align-items-center" class="vh-80 d-flex align-items-center"
         style="background-image: url('image/mci.jpg'); background-size: cover; background-position: center;">
         <div class="container ">
-            <h1 class="animate__animated animate__fadeInDown text-secondary me-3">Ahlan Wa Sahlan</h1>
+            <h1 class="animate__animated animate__fadeInDown text-secondary me-3"></h1>
             <a href="#about" class="btn btn-primary btn-lg animate__animated animate__zoomIn">Pelajari Lebih Lanjut</a>
             <p class="animate__animated animate__fadeInUp"></p>
         </div>
