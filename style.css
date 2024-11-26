@@ -1,6 +1,6 @@
 :root {
-    --primary: rgb(0, 0, 0);
-    --bg : #52829e;
+    --primary: rgb(84, 157, 216);
+    --bg : #000000;
 }
 *{
     margin: 0;
