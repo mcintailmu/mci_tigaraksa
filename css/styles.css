@@ -172,7 +172,7 @@ body {
 /* Cards */
 .highlight-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
