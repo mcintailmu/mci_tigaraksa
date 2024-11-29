@@ -4,37 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galeri Sekolah</title>
-    <!-- font awesome icons -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      rel="stylesheet"
-    />
-
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+ <!-- font awesome icons -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/styles.css" />
+    
+
   <body>
-    <!-- Navbar -->
+    <!-- Navbar start -->
     <nav class="navbar">
-      <div class="logo">
-        <a href="#">Kegiatan<span> MCI Tigaraksa</span></a>
+      <a href="#" class="navbar-logo"
+        >Madrasah Cinta Ilmu<span> Tigaraksa</span>.</a
+      >
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="login.php">Login SPP</a>
+        <a href="#gallery">Gallery</a>
       </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="login.php">Login SPP</a></li>
-        <li><a href="#contact">Kontak</a></li>
-      </ul>
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
+    <!-- Navbar End -->
 
-    <div class="gallery-container">
+    <div class="gallery-container" style="margin-top: 75px;">
       <h3>Gallery Sekolah</h3>
 
       <div class="gallery">
@@ -132,6 +138,11 @@
         ></a>
       </div>
     </footer>
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My javascript -->
+    <script src="js/1script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
