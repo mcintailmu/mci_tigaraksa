@@ -132,7 +132,7 @@ body {
     font-size: 1.6rem;
     margin-top: 1rem;
     line-height: 1.4;
-    font-weight: 100;
+    font-weight: 400;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
     mix-blend-mode: difference;
 }
