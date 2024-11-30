@@ -7,18 +7,6 @@ document.querySelector('#hamburger-menu').onclick = (e) => {
     e.preventDefault();
 };
 
-// Toggle class active search form
-const searchForm = document.querySelector('.search-form');
-const searchBox = document.querySelector('#search-box');
-
-
-
-// Toggle class active shopping cart
-const shoppingCart = document.querySelector('.shopping-cart');
-document.querySelector('#shopping-cart-button').onclick = (e)=>{
-  shoppingCart.classList.toggle('active'); 
-  e.preventDefault(); 
-}
 // Klik diluar Sidebar
 
 const hm = document.querySelector('#hamburger-menu');
@@ -30,18 +18,3 @@ document.addEventListener('click', function (e) {
   }
   
 });
-
-
-
-
-
-
-
-
-
-// klik diluar Modal
-  window.onclick = (e) => {
-  if (e.target ===itemDetailModal) {
-    itemDetailModal.style.display = 'none';
-  }
- }
